@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LaercioFilmes</string>
+    <array name="genero">
+        <item>Animação</item>
+        <item>Romance</item>
+        <item>Terror</item>
+        <item>Ação</item>
+        <item>Comédia</item>
+        <item>Drama</item>
+        <item>Aventura</item>
+    </array>
+</resources>

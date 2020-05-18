@@ -1,0 +1,2 @@
+rootProject.name='LaercioFilmes'
+include ':app'

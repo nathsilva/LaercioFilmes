@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorFundo"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="12dp"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="35dp"
+            android:background="@color/colorPuck"
+            android:layout_marginTop="20dp"
+            android:text="Puck Filmes"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:paddingLeft="90dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/colorPuck"
+            android:gravity="center_horizontal"
+            android:text="Adicione o nome do Filme"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/Filme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome do Filme"
+            android:textColorHint="@color/branco" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/colorPuck"
+            android:gravity="center_horizontal"
+            android:text="Adicione a sinopse do filme"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sinopse"
+            android:textColorHint="@color/branco" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPuck"
+            android:gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:text="Avaliação do filme"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/txtAvaliacao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:digits="012345"
+            android:hint="Avaliação"
+            android:inputType="number"
+            android:textColorHint="@color/branco" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPuck"
+            android:gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:text="Selecione o genero do Filme"
+            android:textColor="#000000" />
+
+        <Spinner
+            android:id="@+id/spnGenero"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/genero" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPuck"
+            android:gravity="center_horizontal"
+            android:paddingLeft="6dp"
+            android:text="Ano de Lançamento"
+            android:textColor="#000000" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ano"
+            android:textColorHint="@color/branco" />
+
+        <Button
+            android:id="@+id/btnAdicionarFilme"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:background="#FF4414"
+            android:text="Adicionar Filme" />
+
+
+    </LinearLayout>
+</RelativeLayout>
